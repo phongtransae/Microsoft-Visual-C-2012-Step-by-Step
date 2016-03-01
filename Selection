@@ -81,14 +81,14 @@ namespace Selection
         {
             int result;
 
-            if (leftHandSide.Year < rightHandSide.Year)
-            {
-                result = -1;
-            }
-            else if (leftHandSide.Year > rightHandSide.Year)
-            {
-                result = 1;
-            }
+                if (leftHandSide.Year < rightHandSide.Year)
+                    {
+                        result = -1;
+                    }
+                else if (leftHandSide.Year > rightHandSide.Year)
+                {
+                    result = 1;
+                }
         }
     }
 }
