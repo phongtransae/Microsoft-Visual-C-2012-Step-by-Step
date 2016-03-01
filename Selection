@@ -97,6 +97,20 @@ namespace Selection
             {
                 result = 1;
             }
+            else if (leftHandSide.Day < rightHandSide.Day)
+            {
+                result = -1;
+            }
+            else if (leftHandSide.Day > rightHandSide.Day)
+            {
+                result = 1;
+            }
+            else
+            {
+                result = 0;            
+            }
+
+            return result;
         }
     }
 }
